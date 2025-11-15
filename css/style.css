@@ -590,6 +590,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
+  font-size: 14px;
 }
 
 .timeline-body > p + p {
@@ -1075,12 +1076,12 @@ form label {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 .couple-half .groom img, .couple-half .bride img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1106,12 +1107,18 @@ form label {
   margin-left: 5px;
 }
 .couple-half .desc-groom {
-  padding-right: 180px;
+  padding-right: 100px;
   text-align: right;
 }
 .couple-half .desc-bride {
-  padding-left: 180px;
+  padding-left: 100px;
   text-align: left;
+}
+.couple-half .desc-bride p {
+  font-size: 14px;
+}
+.couple-half .desc-groom p {
+  font-size: 14px;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
@@ -1342,7 +1349,7 @@ form label {
   color: #fff;
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(250, 250, 250, 0.8);
 }
 #fh5co-started .form-control {
   background: rgba(255, 255, 255, 0.2);
@@ -2496,6 +2503,9 @@ form label {
     color: #444;
     background-color: transparent;
   }
+  .fh5co-cover{
+    background-position: center!important;
+  }
 }
 .navbar-inverse .navbar-link {
   color: #9d9d9d;
@@ -2511,4 +2521,10 @@ form label {
 }
 .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
+}
+.text-white{
+  color: white
+}
+.font-bold{
+  font-weight: 700;
 }
