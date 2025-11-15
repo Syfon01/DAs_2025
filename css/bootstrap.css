@@ -3570,7 +3570,7 @@ tbody.collapse.in {
   display: none;
 }
 .tab-content > .active {
-  display: block;
+  display: block!important;
 }
 
 .nav-tabs .dropdown-menu {
